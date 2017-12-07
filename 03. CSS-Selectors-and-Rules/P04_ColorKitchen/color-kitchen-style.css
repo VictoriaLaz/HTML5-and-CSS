@@ -1,0 +1,93 @@
+/* latin-ext */
+@font-face {
+  font-family: 'Sansita';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Sansita Regular'), local('Sansita-Regular'), url(https://fonts.gstatic.com/s/sansita/v1/OIg80uztPzTvmaigz6QbovY6323mHUZFJMgTvxaG2iE.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Sansita';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Sansita Regular'), local('Sansita-Regular'), url(https://fonts.gstatic.com/s/sansita/v1/hJSyxUQeTBqx_NJRx-g3LA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+body{
+    font-family: 'Sansita', sans-serif;
+    font-size: 20px;
+    background-image: url('images/bg.jpg')
+}
+body>header{
+    text-align: center;
+    font-size: 2rem;
+   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff4e32+29,40f927+29,40f927+29,28fc2f+64,207cca+64,2e32f7+65,3d2ffc+100,7db9e8+100,2989d8+100 */
+background: #ff4e32; /* Old browsers */
+background: -moz-linear-gradient(left,  #ff4e32 29%, #40f927 29%, #40f927 29%, #28fc2f 64%, #207cca 64%, #2e32f7 65%, #3d2ffc 100%, #7db9e8 100%, #2989d8 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  #ff4e32 29%,#40f927 29%,#40f927 29%,#28fc2f 64%,#207cca 64%,#2e32f7 65%,#3d2ffc 100%,#7db9e8 100%,#2989d8 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  #ff4e32 29%,#40f927 29%,#40f927 29%,#28fc2f 64%,#207cca 64%,#2e32f7 65%,#3d2ffc 100%,#7db9e8 100%,#2989d8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff4e32', endColorstr='#2989d8',GradientType=1 ); /* IE6-9 */
+
+    color: #FFFF00;
+}
+aside, article{
+    background-color: rgba(245, 230, 254, 0.9);
+    border-radius: 15px;
+}
+aside{
+    float: left;
+    display: inline-block;
+    margin: 10px;
+}
+nav header{
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
+}
+nav ul{
+    list-style: none;
+}
+nav li{
+    border-radius: 15px;
+}
+nav li::before{
+    content: url('images/a.png')
+}
+nav li:nth-child(2n+1):hover{
+    background: #FF0000;
+}
+nav li:nth-child(2n):hover{
+    background: #008000;
+}
+section{
+    display: inline-block;
+    width: 800px;
+}
+article{
+    margin: 20px;
+}
+article p, article footer, article header{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 15px;
+}
+#webColors{
+    background: #FF0000;
+    
+}
+#RGBA{
+    background: #008000
+}
+[id="#HSLHSV"]{
+    background: #800080
+}
+article p::first-line{
+    font-style: italic;
+}
+article p::first-letter{
+    font-size: 1.6rem;
+    font-weight: bold;
+}

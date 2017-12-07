@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,900");
+
+html{
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+}
+header{background: radial-gradient(ellipse at center,
+  rgba(192,169,145,1) 0%,
+  rgba(192,169,145,1) 59%,
+  rgba(168,143,121,1) 100%);
+}
+nav {
+float: left;
+width: 94%;
+padding: 3%;
+color: #ffffff;
+}
+nav p{
+  padding: 10px;
+}
+nav ul{
+  float: right;
+  list-style: none;
+}
+nav ul li{
+  display: inline-block;
+  padding: 10px;
+}
+nav ul li a{
+  text-decoration: none;
+  color: #ffffff;
+}
+.button-cta{
+  border: 2px solid #ffffff;
+  border-radius: 15px;
+}
+.button-cta:hover{
+  background: #867260;
+  border: 0px;
+}
+.header-title{
+  text-align: center;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+.header-subtitle{
+  text-align: center;
+  color: #ffffff;
+}
+.header-potato{
+  height: 400px;
+  width: 500px;
+  display: block;
+  margin: 0 auto;
+}
+.features{
+  background: url('img/potato-background.png');
+}
+.features-title{
+  text-align: center;
+  padding-top: 100px;
+  text-transform: capitalize;
+  font-size: 3rem;
+}
+.features-subtitle{
+  text-align: center;
+  padding: 20px;
+  width:500px;
+  margin: 0 auto;
+}
+.feature-potatoes{
+  display: block;
+  margin: 0 auto;
+}
+.potato{
+  display: inline-block;
+  width: 300px;
+  border-left: 1px solid black;
+}
+.potato-img{
+  width:250px;
+  height: 150px;
+}
+.potato-types{
+  margin-left: 200px;
+  padding: 10px;
+}
+.order-title{
+  text-align: center;
+  padding: 10px;
+}
+.potato-features{
+  list-style: none;
+}
+.potato-title{
+  text-align: center;
+  text-transform: capitalize;
+}
+.potato-description{
+  text-align: center;
+  padding: 10px;
+}
+.potato-price{
+  text-align: center;
+}
+.btn-order{
+  display: block;
+  margin: 0 auto;
+  background: none;
+  color: #A4D248;
+  border: 1px solid #A4D248;
+  text-transform: uppercase;
+  border-radius: 15px;
+  padding: 8px;
+}
+.btn-order:hover{
+  background: #A4D248;
+  color: #ffffff;
+}
+footer{
+  background: #867260;
+  color: #ffffff;
+}
+footer p{
+  text-align: center;
+}

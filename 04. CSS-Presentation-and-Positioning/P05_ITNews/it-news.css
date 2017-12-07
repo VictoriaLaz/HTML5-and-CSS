@@ -1,0 +1,38 @@
+body{
+    width: 610px;
+    margin: 0 auto;
+    font-family: verdana, Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    
+}
+article{
+    width: 280px;
+    height: 320px;
+    box-shadow: 3px 3px 3px #D5D5D5;
+    display: inline-block;
+    vertical-align: top;
+    border: 2px solid #D5D5D5;
+    margin: 5px;
+}
+img{
+    float:left;
+}
+p{
+    padding-left: 3px;
+}
+.title{
+    font-weight: bold;
+    text-decoration: none;
+}
+article a{
+    text-decoration: none;
+    color: black;
+}
+article a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.date{
+    font-size: 10px;
+    color: #A192B0;
+}

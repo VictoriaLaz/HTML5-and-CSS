@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,900 ');
+body{
+    font-family: 'Open-sans', sans-serif;
+    color: #575757;
+    font-size: 14px;
+}
+.header-navigation{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.nav-item{
+    display: inline-block;
+    text-transform: uppercase;
+    margin: 60px;
+    opacity: 0.7;
+    border-bottom: 1px solid #ffffff;
+    font-weight: bold;
+}
+.nav-tem:hover{
+    opacity: 1;
+    border-bottom: 1px solid #575757;
+}
+.nav-item a{
+    text-decoration: none;
+    color: #575757;
+}
+.solo-wireless, .powerbeats, .buy-now, .subscription-title, .give-life{
+    display: flex;
+    flex-direction: row;
+}
+.wireless-image img{
+    width: 500px;
+    margin-left:150px;
+}
+.wireless-specs{
+    width: 300px;
+    padding-left: 200px;
+    padding-top: 100px;
+}
+.wireless-title{
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.btn{
+    outline: none;
+    border: none;
+    background: #FF0000;
+    padding: 15px;
+    color: #ffffff;
+    border-radius: 15px;
+}
+.powerbeats-image img{
+    width: 400px;
+    margin-left: 150px;
+    margin-bottom: 40px;
+}
+.beats-specs{
+    margin-left: 150px;
+    width: 300px;
+    padding-top: 100px;
+}
+.beats-title{
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+.beats-subtitle{
+    margin-top:5px;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.beats-subtitle span{
+    font-weight: 900;
+}
+.price{
+    font-weight: 900;
+    margin-right: 50px;
+}
+.subscription{
+    background: #575757;
+    color: #ffffff;
+    height: 150px;
+}
+.subscription-title{
+    justify-content: center;
+    padding-top: 20px;
+}
+.subscription-title img{
+    width:50px;
+    height: 50px;
+    margin-left:20px;
+}
+.subscription-terms{
+    text-transform: uppercase;
+    padding-left:20px;
+    font-size: 22px;
+}
+.subscription a{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+.life-item{
+    width: 50%;
+}
+.life-background{
+    background: url('img/beats-girl.png')
+}
+.life-right{
+    padding-top: 20px;
+    background: #DADADA;
+}
+.life-right img{
+    float: right;
+}
+.life-title{
+    text-transform: uppercase;
+    font-size: 100px;
+    padding-left: 40px;
+}
+.beats-red{
+    font-size: 40px;
+    padding-left: 40px;
+}
+.beats-red span{
+    text-transform: uppercase;
+    color: #FF0000;
+}
+footer{
+    text-align: center;
+}

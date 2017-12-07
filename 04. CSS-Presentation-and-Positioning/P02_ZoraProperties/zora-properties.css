@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:700|Open+Sans:400,700');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    
+    font-size: 14px;
+    font-family: 'Open Sans', Arial, sans-serif;
+}
+aside h1{
+    font-family: Comfortaa, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    padding: 25px;
+}
+aside{
+    background: #FFFFFF;
+    width: 200px;
+    float: left;
+}
+aside img{
+    size: 100%;
+    max-width: 125px;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: block;
+}
+aside .name{
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+ul{
+    list-style: none;
+}
+li{
+    padding: 15px;
+    border-left: 3px solid transparent;
+}
+li:hover{
+    border-left-color: #EC8352;
+}
+li a{
+    text-decoration: none;
+}
+main{
+    background: #F4F5F7;
+}
+main h1{
+    display: inline-block;
+    padding: 30px;
+    font-weight: normal;
+}
+main h1 span{
+    color: #93A4AC;
+}
+.add{
+    width: 120px;
+    float: right;
+    padding: 10px;
+    background: #FF7739;
+    color: #FFFFFF;
+    border-radius: 15px;
+    margin: 30px;
+    text-transform: uppercase;
+}
+div{
+    display: inline-block;
+    margin: 15px;
+    box-shadow: 5px 5px 6px #BDBEC0;
+}
+section{
+    margin-left: 215px;
+}
+section > h5{
+    text-transform: capitalize;
+    padding: 15px
+}
+section p{
+    text-transform: uppercase;
+    padding: 0px 15px 15px 15px;
+}
+.image{
+    z-index: 0;
+    margin-top: 30px;
+    position: relative;
+}
+.tag{
+    z-index: 5;
+    position: relative;
+    top: -150px;
+    left:-20px;
+    text-transform: uppercase;
+    font-weight: normal;
+    width: 70px;
+    color: #FFFFFF;
+    padding: 5px;
+    text-align: center;
+    border-radius: 15px;
+}
+.rented{
+    background: #B8C5CD;
+}
+.listed{
+    background: #68BB69;
+}
+.draft{
+    background: #91A5AE;
+}
+.description{
+    font-weight: normal;
+    text-transform: capitalize;
+    margin-left: 10px;
+}
+.unit{
+    font-weight: normal;
+    margin: 10px;
+}

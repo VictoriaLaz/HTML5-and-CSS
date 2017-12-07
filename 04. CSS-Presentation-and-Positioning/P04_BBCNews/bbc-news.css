@@ -1,0 +1,30 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: 'Calibri Light', Verdana, sans-serif;
+    width: 890px;
+    margin: 0 auto;
+    border: 2px solid #a5b2b3;
+}
+article{
+    display: inline-block;
+    width: 200px;
+    vertical-align: top;
+    margin: 5px;
+}
+img{
+    width:200px;
+}
+h1{
+    text-align: center;
+    padding: 10px;
+}
+p{
+    padding-top: 10px;
+}
+img:hover{
+    opacity: 0.4;
+    cursor: pointer;
+}

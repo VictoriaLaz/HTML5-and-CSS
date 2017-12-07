@@ -1,0 +1,28 @@
+@media screen and (max-width: 639px){
+    .nav-primary{
+        flex-wrap: wrap;
+    }
+    .nav-item {
+        width: 100%;
+        text-align: center;
+        padding-top: 15px;
+        padding-left: 50px;
+    }
+    .nav-item:last-of-type{
+        padding-bottom: 15px;
+    }
+    .second-row{
+        flex-wrap: wrap;
+    }
+    .mixr-left,
+    .urbeats-right{
+        width: 100%;
+        align-items: center;
+    }
+    .solo, .second-row, .studio{
+        text-align: center;
+    }
+    .product-img{
+        width: 49%
+    }
+}

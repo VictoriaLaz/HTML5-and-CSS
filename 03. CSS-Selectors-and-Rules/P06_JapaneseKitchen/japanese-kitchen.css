@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,900");
+html{
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    background: url('images/dark-wood.jpg')repeat;
+}
+body{
+    width: 940px;
+    margin: 0 auto;
+}
+header {
+    background-image: url('images/header-page.jpg');
+    font-size: 2rem;
+    padding-left: 500px;
+    height: 130px;
+    line-height: 130px;
+}
+nav{
+    background-image: url('images/header-page.jpg');
+    border: 3px solid #654F41;
+}
+nav ul li{
+    display: inline-block;
+    padding: 10px;
+}
+nav li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+li a:hover{
+    color: #2E2B2F;
+}
+main{
+    background: #FFFFFF;
+}
+figure{
+    
+    float: left;
+    margin: 15px;
+}
+.courses{
+    width: 600px;
+    display: inline-block;
+}
+/*article::after{
+    content: '';
+    display: block;
+    clear: both;
+}*/
+/*article{
+    width: 600px;
+}*/
+article h2{
+    padding: 10px;
+    padding-top: 15px;
+}
+article h3{
+    padding: 10px;
+    color: #EBD694;
+}
+aside{
+    display: inline-block;
+    width: 200px;
+}
+aside ul li a{
+    text-decoration: none;
+    color: #E0677B;
+}
+.popular-recipes{
+    color: #E0677B;
+}
+.popular-recipes ul li{
+    list-style: none;
+}
+.popular-recipes ul li a:hover{
+    color: #B8979B;
+}
+footer{
+    text-align: center;
+    color: #ffffff;
+    background: #AEACA8;
+    border: 3px solid #654F41;
+}
